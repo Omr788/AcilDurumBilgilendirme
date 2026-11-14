@@ -61,14 +61,14 @@ p
 .kanBaslik {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
 .kanBaslik img {
-  width: 100px;
+  width: 80px;
 }
 
 .kanBilgi {

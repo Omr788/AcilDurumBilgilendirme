@@ -91,7 +91,7 @@ p
   background-color: #b71919;
 }
 
-.kanYazi h2 {
+.kanYazi h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -104,4 +104,73 @@ p
   font-size: 15px;
   color: #861212;
   margin: 0;
+}
+
+.alerjiKarti
+
+{
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+}
+.alerjiBaslik
+{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.alerjiBaslik
+h2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+  
+}
+.alerjiBaslik
+span
+{
+  color: orange;
+  font-size: 30px;
+  margin-left: 20px;
+  
+}
+.alerjiBilgi
+{
+  display: flex;
+  flex-direction:  column;
+  
+
+  background-color: rgb(252, 212, 137);
+  padding: 15px;
+  width: 95%;
+  border-radius: 12px;
+  margin: 10px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  
+
+}
+.alerjiBilgi
+h3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.alerjiBilgi
+p
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(109, 77, 18);
+  margin: 0px;
 }

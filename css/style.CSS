@@ -47,9 +47,42 @@ header {
   font-size: 10px;
 }
 
+/*Hasta Adı Soyadı*/
+.hastaKarti {
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+.hastaBaslik {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.hastaBaslik img {
+  width: 80px;
+  height: 80px;
+}
+
+.hastaBilgi {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hastaYazi p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
 /*-------Kan Kartı---------*/
 
 .kanKarti {
+  margin-top: 10px;
   padding: 10px;
   border-radius: 12px;
   background-color: white;

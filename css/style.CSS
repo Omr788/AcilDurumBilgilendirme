@@ -227,7 +227,7 @@ header {
 }
 .aramaBilgi h3 {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(13, 163, 13);
+  color: rgb(36, 134, 16);
   font-weight: normal;
   font-size: 12px;
   margin-top: 5px;
@@ -274,7 +274,7 @@ header {
   text-decoration: none;
   border-radius: 8px;
   font-size: 16px;
-  width: 160px;
+  width: 80%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;

@@ -126,14 +126,14 @@ header {
 }
 .alerjiBaslik span {
   color: orange;
-  font-size: 40px;
+  font-size: 45px;
   margin-left: 20px;
 }
 .alerjiBilgi {
   display: flex;
   flex-direction: column;
 
-  background-color: rgb(252, 212, 137);
+  background-color: rgb(255, 226, 171);
   padding: 15px;
   width: 95%;
   border-radius: 12px;
@@ -151,5 +151,48 @@ header {
 .alerjiBilgi p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(109, 77, 18);
+  margin: 0px;
+}
+
+/*-------Kronik Rahatsızlıklar----------*/
+
+.kRahatsizlikKarti {
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+.kRahatsizlik {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.kRahatsizlikKarti img {
+  margin-left: 10px;
+  width: 70px;
+}
+
+.kRahatsizlikBilgi {
+  background-color: rgb(170, 210, 255);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px;
+}
+.kRahatsizlikBilgi h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(14, 90, 255);
+  margin: 0px;
+}
+
+.kRahatsizlikBilgi p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(2, 74, 141);
   margin: 0px;
 }
